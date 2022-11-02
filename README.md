@@ -5,6 +5,7 @@ Objectif final : mes fichiers produiront ma propre version de "Game of Life" en 
 
 Objectifs intermediaires :
 - Faire un jeu de la vie sur de simples règles :
+  
   1 . Si une cellule vivante est entourée de moins de 2 cellules vivantes, elle meurt
   
   2 . Une cellule vivante avec 2 ou 3 voisines vivantes survit au changement de génération 
