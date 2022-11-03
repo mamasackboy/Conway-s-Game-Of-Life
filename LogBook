@@ -7,3 +7,9 @@
 02/11/22 : - Modification du journal de bord
            - Modification du ReadMe 
            - Création de la 1ère version du fichier Python
+
+03/11/22 : - Dépot de la 1ère version du fichier avec quelques bugs (correction des bugs prévu pour le : 04/11/22). 
+             Cette version présente quelques particularitées : 
+                      1. Dépot de cellules vivantes en cliquant à la souris.
+                      2. Possibilité de modifier l'état de la simulation entre pause et marche .
+                      3. Pour l'instant les règles entre en conflit et aucune forme de vie ne peut exister :) .
