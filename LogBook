@@ -13,3 +13,11 @@
                       1. Dépot de cellules vivantes en cliquant à la souris.
                       2. Possibilité de modifier l'état de la simulation entre pause et marche .
                       3. Pour l'instant les règles entre en conflit et aucune forme de vie ne peut exister :) .
+
+04/11/22 : - Dépot de la 1.1 (1ers bugs corriger)
+           - Cette version est encore amélioré mais d'autres bugs sont apparus :
+                 Améliorations:
+                      1.La position de la souris est maintenant précise
+                      2.La simulation occupe la taille entière de l'écran
+                 Bugs:
+                      3.La simulation est extrement lente malgré plusieurs modifications avec la bibliothèque time de python.
