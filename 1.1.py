@@ -61,6 +61,7 @@ def main():
                     running= not running
                     update(ecran, cellules, 10)
                     pygame.display.update()
+#Si l'on clique sur une case , la cellule devient vivante 
             if pygame.mouse.get_pressed()[0]:
                 pos= pygame.mouse.get_pos()
                 cellules[pos[0]//10,pos[1]//10] = 1
