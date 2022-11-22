@@ -46,6 +46,7 @@ def main():
     
     pygame.display.flip()
     pygame.display.update()
+    pygame.display.set_caption("Conway's Game Of Life")
     
     running=True
     
