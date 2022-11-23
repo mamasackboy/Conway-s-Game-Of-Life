@@ -21,3 +21,7 @@
                       2.La simulation occupe la taille entière de l'écran
                  Bugs:
                       3.La simulation est extrement lente malgré plusieurs modifications avec la bibliothèque time de python.
+23/11/22 : -Tentative de créer un réseau toroïdal
+           -Correction de bugs mineurs
+           
+24/11/22 : - Version finale ?
