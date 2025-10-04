@@ -13,7 +13,12 @@ def update(ecran, cellules, taille, larg=False ):
 
 # Definition et parcours de la grille 
     for ligne , col in num.ndindex(cellules.shape):
-        vivant= num.sum(cellules[ligne-1:ligne+2 , col-1:col+2]) - cellules[ligne,col]
+        # Proper bounds checking for neighbor counting
+        start_row = max(0, ligne-1)
+        end_row = min(cellules.shape[0], ligne+2)
+        start_col = max(0, col-1)
+        end_col = min(cellules.shape[1], col+2)
+        vivant= num.sum(cellules[start_row:end_row , start_col:end_col]) - cellules[ligne,col]
         coul= COL_BG if cellules[ligne,col]==0 else CEL_PV
         
 #Définition et application des 4 règles de Conway    
